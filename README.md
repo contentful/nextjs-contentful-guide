@@ -1,4 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) example project that integrates with [Contentful](https://www.contentful.com/) to display knowledge base articles. This project includes the following functionality:
+
+- [Next.js App Router](https://nextjs.org/docs/app)
+- Article listing on homepage
+- Article detail pages
+- On-demand revalidation with Next.js [Route Handlers](https://nextjs.org/docs/app/building-your-application/routing/route-handlers) and Contentful [Webhooks](https://www.contentful.com/developers/docs/webhooks/overview/)
+- Content Preview with Next.js [Draft Mode](https://nextjs.org/docs/app/building-your-application/configuring/draft-mode) and Contentful [Content Preview](https://www.contentful.com/developers/docs/references/content-preview-api/)
+
+For a complete guide on how to integrate Next.js App Router and Contentful, see the [Next.js App Router and Contentful Integration Guide](https://vercel.com/docs/integrations/contentful).
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fah100101%2Fnextjs-contentful-guide&env=CONTENTFUL_SPACE_ID,CONTENTFUL_ACCESS_TOKEN,CONTENTFUL_PREVIEW_ACCESS_TOKEN,CONTENTFUL_REVALIDATE_SECRET,CONTENTFUL_PREVIEW_SECRET)
 
 ## Getting Started
 
@@ -19,6 +29,18 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Required Environment Variables
+
+This project requires the following environment variables to be set:
+
+```
+CONTENTFUL_SPACE_ID=<Replace with your Contentful Space ID>
+CONTENTFUL_ACCESS_TOKEN=<Replace with your Contentful access token>
+CONTENTFUL_PREVIEW_ACCESS_TOKEN=<Replace with your Contentful preview access token>
+CONTENTFUL_REVALIDATE_SECRET=<Replace with a secret string to be set in Contentful's webhook settings>
+CONTENTFUL_PREVIEW_SECRET=<Replace with a secret string to be set in Contentful's Content Preview settings>
+```
 
 ## Learn More
 
