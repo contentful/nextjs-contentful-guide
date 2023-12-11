@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org/) example project that integrates with [C
 - [Next.js App Router](https://nextjs.org/docs/app)
 - Article listing on homepage
 - Article detail pages
-- On-demand revalidation with Next.js [Route Handlers](https://nextjs.org/docs/app/building-your-application/routing/route-handlers) and Contentful [Webhooks](https://www.contentful.com/developers/docs/webhooks/overview/)
+- On-demand [revalidation](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching-caching-and-revalidating) with Next.js [Route Handlers](https://nextjs.org/docs/app/building-your-application/routing/route-handlers) and Contentful [Webhooks](https://www.contentful.com/developers/docs/webhooks/overview/)
 - Content Preview with Next.js [Draft Mode](https://nextjs.org/docs/app/building-your-application/configuring/draft-mode) and Contentful [Content Preview](https://www.contentful.com/developers/docs/references/content-preview-api/)
 
 For a complete guide on how to integrate Next.js App Router and Contentful, see the [Next.js App Router and Contentful Integration Guide](https://vercel.com/docs/integrations/contentful).
