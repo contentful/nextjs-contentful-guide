@@ -6,7 +6,7 @@ This is a [Next.js](https://nextjs.org/) example project that integrates with [C
 - On-demand [revalidation](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching-caching-and-revalidating) with Next.js [Route Handlers](https://nextjs.org/docs/app/building-your-application/routing/route-handlers) and Contentful [Webhooks](https://www.contentful.com/developers/docs/webhooks/overview/)
 - Content Preview with Next.js [Draft Mode](https://nextjs.org/docs/app/building-your-application/configuring/draft-mode) and Contentful [Content Preview](https://www.contentful.com/developers/docs/references/content-preview-api/)
 
-For a complete guide on how to integrate Next.js App Router and Contentful, see the [Next.js App Router and Contentful Integration Guide](https://vercel.com/docs/integrations/contentful).
+For a complete guide on how to integrate Next.js App Router and Contentful, see the [Next.js App Router and Contentful Integration Guide](https://www.contentful.com/blog/integrate-contentful-next-js-app-router/).
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fcontentful%2Fnextjs-contentful-guide&env=CONTENTFUL_SPACE_ID,CONTENTFUL_ACCESS_TOKEN,CONTENTFUL_PREVIEW_ACCESS_TOKEN,CONTENTFUL_REVALIDATE_SECRET,CONTENTFUL_PREVIEW_SECRET)
 
