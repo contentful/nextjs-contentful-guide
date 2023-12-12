@@ -8,7 +8,7 @@ This is a [Next.js](https://nextjs.org/) example project that integrates with [C
 
 For a complete guide on how to integrate Next.js App Router and Contentful, see the [Next.js App Router and Contentful Integration Guide](https://vercel.com/docs/integrations/contentful).
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fah100101%2Fnextjs-contentful-guide&env=CONTENTFUL_SPACE_ID,CONTENTFUL_ACCESS_TOKEN,CONTENTFUL_PREVIEW_ACCESS_TOKEN,CONTENTFUL_REVALIDATE_SECRET,CONTENTFUL_PREVIEW_SECRET)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fcontentful%2Fnextjs-contentful-guide&env=CONTENTFUL_SPACE_ID,CONTENTFUL_ACCESS_TOKEN,CONTENTFUL_PREVIEW_ACCESS_TOKEN,CONTENTFUL_REVALIDATE_SECRET,CONTENTFUL_PREVIEW_SECRET)
 
 ## Required Environment Variables
 
